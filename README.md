@@ -4,18 +4,18 @@ To build a disposable environment that middleware is included in the cloud and o
 
 ## Usage for build
 ```shell
-$> sudo docker build -t rankforce/ruby-alpine .
+$> sudo docker build -t rankforce/ruby .
 ```
 
 or
 
 ```shell
-$> sudo docker pull rankforce/ruby-alpine .
+$> sudo docker pull rankforce/ruby .
 ```
 
 ## Usage for run
 ```shell
-$> sudo docker run rankforce/ruby-alpine rspec
+$> sudo docker run rankforce/ruby rspec
 ```
 ## Dockerfile URL
 * [Dockerfile](https://github.com/rankforce/build/blob/master/ruby/Dockerfile)
